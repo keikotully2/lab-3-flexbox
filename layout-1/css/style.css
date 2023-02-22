@@ -7,11 +7,56 @@
   box-sizing: border-box;
 }
 
+/* Base Styling */
+html {
+  font-size: 20px;
+}
+
+header,
+section,
+footer,
+article {
+  border: 1px solid black;
+  display: flex;
+}
+
+body {
+  margin: 0 auto; 
+  max-width: 780px;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+header{
+height: 8vh;
+}
 
+.main-section{
+  height: 30vh;
+}
+
+section,
+footer {
+  height: 22vh;
+  width: 100%;
+  display: flex;
+}
+
+header,
+section,
+footer{
+  flex: 1;
+}
+
+.one-third{
+  flex: 1;
+}
+
+.half{
+  flex: 1;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
